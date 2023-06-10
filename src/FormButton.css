@@ -1,0 +1,41 @@
+.button-link {
+    text-align: center;
+
+    padding: 0.5rem;
+
+    background-color: inherit;
+    
+    border: none;
+    
+    font: inherit;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.button {
+    align-self: center;
+    justify-self: center;
+
+    margin: 0.5rem 1rem;
+    padding: 0.2rem;
+
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px sold grey;
+}
+
+.button-submit {
+    align-self: center;
+    justify-self: center;
+
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    height: 70%;
+    width: 35%;
+
+    font-size: 1.2rem;
+    
+    background-color: #ff6f3c;
+    color: white;
+}

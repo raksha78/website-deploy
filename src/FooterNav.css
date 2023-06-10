@@ -1,0 +1,46 @@
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav__list {
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+    list-style: none;
+}
+
+.footer-nav__link {
+    display: inline-block;
+
+    padding: 0.3rem;
+
+    color: grey;
+    font-weight: none;
+
+    text-decoration: none;
+}
+
+.footer-nav__link:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+@media (min-width: 44rem) {
+    .footer-nav__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .footer-nav__link {
+        padding: 1rem;
+        
+        font-weight: bold;
+    }
+
+}

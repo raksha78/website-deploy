@@ -1,0 +1,163 @@
+.contact-list {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.5rem;
+}
+
+.contact-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    border-bottom: 1px solid #ff6f3c;
+    font-size: 1rem;
+}
+
+.contact-list-icon {
+    margin: 0.5rem;
+
+    color: #ff6f3c;
+    font-size: 1.2rem;
+}
+
+.contact-list-icon:hover {
+    color: lightgrey;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    margin-left: 1rem;
+    
+    color: grey;
+}
+
+.item-text {
+    color: white;
+    text-decoration: none;
+}
+
+.item-text:hover {
+    color: #ff6f3c;
+}
+
+.gg-work-alt,
+.gg-work-alt::after {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px
+}
+
+.gg-work-alt {
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 10px;
+    border-radius: 1px
+}
+
+.gg-work-alt::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    left: 4px;
+    top: -3px
+}
+
+.gg-mail-open,
+.gg-mail-open::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+
+.gg-mail-open {
+    border-top: 0;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+
+.gg-mail-open::after {
+
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.gg-file-document {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    border-top-right-radius: 4px;
+    overflow: hidden
+}
+
+.gg-file-document::after,
+.gg-file-document::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-file-document::before {
+    background: currentColor;
+    box-shadow:
+        0 4px 0,
+        -6px -4px 0;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    top: 8px
+}
+
+.gg-file-document::after {
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    right: -1px;
+    top: -1px
+}
+
+@media (min-width: 44rem) {
+    .contact-list {
+        padding: 1rem;
+    }
+
+    .contact-list-item {
+        padding: 1rem;
+        margin: 1rem;
+        
+        font-size: 1.2rem;
+    }
+
+    .item-list {
+        margin-left: 2rem;
+    }
+}

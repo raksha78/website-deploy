@@ -1,0 +1,196 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    background-color: whitesmoke;
+    border-top: 1px solid #ff6f3c;
+
+}
+
+.footer-nav {
+    text-align: left;
+}
+
+.footer__icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    height: 2rem;
+    padding: 0;
+    padding-right: 1rem;
+    margin-bottom: 0.8rem;
+
+    list-style: none;
+}
+
+.footer__icon-item {
+    padding: 0.2rem 0.8rem;
+    border-right: 1px solid grey;
+}
+
+.footer__icon-item:last-child {
+    padding-top: 0.5rem;
+    border-right: none;
+}
+
+.gg-facebook {
+    color: darkgrey;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.gg-facebook:hover {
+    color: #ff6f3c;
+}
+
+.gg-instagram {
+    color: darkgrey;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-instagram:hover {
+    color: #ff6f3c;
+}
+
+.gg-twitter {
+    color: darkgrey;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px
+}
+
+.gg-twitter::after,
+.gg-twitter::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 4px
+}
+
+.gg-twitter::before {
+    width: 9px;
+    height: 14px;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-bottom-left-radius: 6px;
+    background:
+        linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center 2px/10px 4px;
+    top: 4px
+}
+
+.gg-twitter::after {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 20px;
+    top: 2px;
+    box-shadow: 7px 4px 0, 7px 12px 0
+}
+
+.gg-twitter:hover {
+    color: #ff6f3c;
+}
+
+.gg-mail,
+.gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+
+.gg-mail {
+    color: darkgrey;
+    overflow: hidden;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.gg-mail:hover {
+    color: #ff6f3c;
+}

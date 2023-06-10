@@ -1,0 +1,39 @@
+.text-carousel-holder {
+    height: auto;
+    width: 100%;
+    padding: 1rem 1rem;
+
+    background-color: whitesmoke;
+}
+
+.carousel-text {
+    justify-content: center;
+    text-align: center;
+
+    padding: 1rem 1rem;
+
+    font-size: 1rem;
+
+    color: black;
+}
+
+.currentSlide {
+    display: block;
+}
+
+.hiddenSlide {
+    display: none;
+}
+
+@media (min-width: 44rem ) {
+    .text-carousel-holder {
+        padding: 2rem 1rem;
+    }
+
+    .carousel-text {
+        padding: 2rem 1rem;
+        
+        font-size: 1.25rem;
+    }
+}
+

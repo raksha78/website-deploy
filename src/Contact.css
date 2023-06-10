@@ -1,0 +1,19 @@
+.contact-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0.5rem 2rem;
+    
+    background-color: black;
+
+    border: 1px solid grey;
+
+}
+
+@media (min-width: 44rem ) {
+    .contact-holder {
+        flex-direction: row;
+        padding: 1rem 5rem;
+    }
+}

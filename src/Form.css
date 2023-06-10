@@ -1,0 +1,161 @@
+.form {
+    grid-column: span 12;
+    height: 100%;
+    width: 100%;
+    
+    padding: 1rem 0.5rem;
+    margin: 0.5rem;
+    
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+
+    background-color: white;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__label--holder {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5rem;
+    margin-right: 0;
+}
+
+.form__input--holder {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5rem;
+}
+
+.form__label {
+    width: 2rem;
+    text-align: left;
+    align-self: right;
+    margin-bottom: 0;
+
+    color: black;
+    font-size: 1rem;
+}
+
+.form__input {
+    text-align: left;
+    width: 30%rem;
+    height: 2.5rem;
+
+    margin-bottom: 0.5rem;
+}
+
+.form__label--required{
+    grid-area: required;
+    text-align: left;
+
+    color: #ff6f3c;
+    font-size: 1rem;
+}
+
+.form--error {
+    grid-area: error;
+    text-align: left;
+
+    color: rgb(193, 50, 50);
+}
+
+.form__submit {
+    align-self: right;
+    justify-self: center;
+
+    height: 70%;
+    width: 70%;
+    margin: 0.5rem;
+
+}
+
+#message {
+    width: auto;
+    height: 100px;
+
+    font: inherit;
+}
+
+.dialog {
+    width: 50%;
+    border: 1px sold grey;
+}
+
+.dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.dialog__heading {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.dialog__close {
+    font: inherit;
+    width: auto;
+}
+
+@media (min-width: 44rem ) {
+    .form {
+        grid-column: span 12;
+        height: 100%;
+        width: 60%;
+    
+        padding: 2rem 0.5rem;
+        margin: 1rem;
+    }
+
+    .form__field {
+        flex-direction: row;
+    }
+
+    .form__label--holder {
+        margin: 1rem;
+    }
+
+    .form__input--holder {
+        margin: 1rem;
+    }
+
+    #message {
+        width: 321px;
+        height: 147px;
+    }
+
+    .form__label {
+        width: 5rem;
+
+        font-size: 1.2rem;
+    }
+
+    .form__input {
+        width: 20rem;
+    }
+
+    .form__input--holder {
+        margin: 1rem;
+        margin-left: 0;
+    }
+
+    .form__label--required{
+        font-size: 1rem;
+    }
+
+    .dialog {
+        width: 25%;
+    }
+
+    .dialog__heading {
+        padding: 2rem;
+
+        font-size: 1.3rem;
+    }
+    
+}

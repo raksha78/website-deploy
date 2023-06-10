@@ -1,0 +1,60 @@
+.intro-card {
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    overflow: hidden;
+    
+    margin: 2rem 4rem;
+    padding: 2rem;
+
+    background-color: 155263;
+
+    border: 2px solid grey;
+    border-radius: 25px;
+}
+
+.intro-card-image {
+    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+
+.intro-card-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.intro-card-text {
+    text-align: justify;
+    color: #155263;
+}
+
+@media (min-width: 44rem ) {
+    .intro-card {
+        margin: 4rem 8rem;
+        padding: 3rem;
+    }
+
+    .intro-card-image { 
+        float: left;
+
+        margin: 1rem;
+        margin-right: 3rem;
+    }
+
+    .intro-card-title {
+        font-size: 1.5rem;
+    }
+    
+    .intro-card-text p:first-child{
+        margin-top: 3rem;
+    }
+
+    .intro-card-text {
+        font-size: 1.15rem;
+    }
+
+}

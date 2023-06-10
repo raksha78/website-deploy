@@ -1,0 +1,97 @@
+.work-sample {
+    display: grid;
+    width: 100%;
+    
+    background-color: white;
+}
+
+.course-work {
+    background-color: white;
+}
+
+.projects {
+    background-color: whitesmoke;
+}
+
+.description {
+    text-align: left;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.title {
+    justify-content: left;
+
+    font-size: 1.3rem;
+}
+
+.text {
+    justify-content: left;
+
+    font-size: 1.1rem;
+    color: darkgray;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card-title {
+    text-align: left;
+    justify-content: center;
+
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+
+    border-bottom: 1px solid grey;
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+@media (min-width: 44rem) {
+    .description {
+        text-align: left;
+
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+
+
+        padding-top: 2rem;
+        padding-left: 3rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+    .main-card-title {
+        text-align: center;
+        justify-content: center;
+
+        padding-top: 0rem;
+        padding-left: 0rem;
+    }
+
+    .card-holder {
+        flex-direction: row;
+        justify-content: space-around;
+
+        margin: 0.5rem;
+    }
+}

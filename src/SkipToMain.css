@@ -1,0 +1,26 @@
+.skip-to-main {
+    position: absolute;
+    top: -100px;
+    left: -75px;
+
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+    color: black;
+    background-color: transparent;
+
+    border: 1px solid grey;
+    text-decoration: none;
+}
+
+.skip-to-main:focus {
+    top: 0px;
+    left: 160px;
+
+    color: black;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    font-size: 1rem;
+}

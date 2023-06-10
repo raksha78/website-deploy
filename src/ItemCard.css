@@ -1,0 +1,48 @@
+.item-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 3;
+
+    padding: 0.5rem;
+    height: 5rem;
+    width: 8.5rem;
+
+    color: #155263;
+    background-color: whitesmoke;
+
+    border: 0.5px solid grey;
+}
+
+.item-card span {
+    font-size: 1rem;
+}
+
+.item-card:hover {
+    border-color: #155263;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .item-card:hover  {
+        animation: pop 0.5s linear 1;
+    }
+}
+
+@keyframes pop {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width: 44rem) {
+    .item-card {
+        padding: 1.5rem;
+        height: 10rem;
+        grid-column: span 2;
+        width: 14rem;
+    }
+
+    .item-card span {
+        font-size: 1.4rem;
+    }
+}
