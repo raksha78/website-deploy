@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/website-deploy/static/css/main.dfee2047.css",
+    "main.js": "/website-deploy/static/js/main.7ec83d3f.js",
+    "static/js/787.98498dfe.chunk.js": "/website-deploy/static/js/787.98498dfe.chunk.js",
+    "static/media/wave2.jpg": "/website-deploy/static/media/wave2.ee3488bd38e005656704.jpg",
+    "static/media/r.jpg": "/website-deploy/static/media/r.2967113a690ad29f848d.jpg",
+    "static/media/rak1.png": "/website-deploy/static/media/rak1.fe2bf6fc25baf293896e.png",
+    "static/media/Rakshitha_Gururaj.pdf": "/website-deploy/static/media/Rakshitha_Gururaj.a10758d4165a68a621ab.pdf",
+    "index.html": "/website-deploy/index.html",
+    "main.dfee2047.css.map": "/website-deploy/static/css/main.dfee2047.css.map",
+    "main.7ec83d3f.js.map": "/website-deploy/static/js/main.7ec83d3f.js.map",
+    "787.98498dfe.chunk.js.map": "/website-deploy/static/js/787.98498dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfee2047.css",
+    "static/js/main.7ec83d3f.js"
+  ]
+}
